@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Master.Views.ExperiencePage">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center" Margin="20">
+            <Label Text="Опыт" Font="20" TextColor="DarkBlue" HorizontalTextAlignment="Center"/>
+            <Image Source="um.png"/>
+            <Label Text="Я довольно хорошо рисую (с детского садика, однако ни в каких художественных школах я не училась и многие мои друзья говорят, что я недооцениваю свои навыки), имею неплохой вкус в музыке, быстро учусь новому (многое, за что я берусь, я в скором времени быстро понимаю), быстро нахожу общий язык с разными людьми ( так как со многими знакома) и могу даже побыть психологом." TextColor="BlueViolet" HorizontalTextAlignment="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

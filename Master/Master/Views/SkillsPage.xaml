@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Master.Views.SkillsPage">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center" Margin="20">
+            <Label Text="Мои скиллы))))" Font="20" TextColor="BlueViolet" HorizontalTextAlignment="Center"/>
+            <Image Source="sk.jpg"/>
+            <Label Text="Я как-бы между интровертами и экстравертами - амбиверт, а следовательно как и на воле, так и в 4-х стенах, много чего умею. Но лучше всего я умею рисовать, играть на гитаре, смешить людей, прибираться (как и у себя, так и у кого-то), дышать, есть (тут я профессионал), практически спать..." TextColor="Violet" HorizontalTextAlignment="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

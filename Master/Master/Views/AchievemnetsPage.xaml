@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Master.Views.AchievemnetsPage">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center" Margin="20">
+            <Label Text="Здесь отдыхают мои достижения.." Font="20" TextColor="OrangeRed" HorizontalTextAlignment="Center"/>
+            <Label Text="Вообщем-то, так как я ещё довольно маленький человечек, мои достижения ещё не так значительны, но из самых весёлых я назову следующие:" TextColor="Orange" HorizontalTextAlignment="Center"/>
+            <Label Text="1. Профессиональный мойщик посуды и полов." TextColor="Red"/>
+            <Label Text="2. Личный и грустный психолог некоторых своих друзей - без зарплаты.." TextColor="IndianRed"/>
+            <Label Text="3. Леонард да Винчи на минималках" TextColor="Pink"/>
+            <Label Text="4. Выношу мусор быстро, метко, практично, как соник" TextColor="WhiteSmoke"/>
+            <Label Text="5. Мастер на все руки - постучу по роутеру и исправлю неполадки." TextColor="LightCoral"/>
+            <Label Text="6. Достижение - мы с бессоницей ходим парой (3 дня и больше..)" TextColor="LightSeaGreen"/>
+            <Label Text="7. Утренний, дневной и ночной киноман" TextColor="BlueViolet"/>
+            <Label Text="8. Самоучка - быстро учусь многим вещам." TextColor="CadetBlue"/>
+            <Image Source="ok.png"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

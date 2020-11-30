@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Master.Views.AboutPage">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center" Margin="20">
+            <Image x:Name="profileImage"/>
+            <Label Text="Здесь расположена информация обо мне:3" Font="20" TextColor="DeepPink" HorizontalTextAlignment="Center"/>
+            <Label Text="Меня зовут Эля и мне 17 годиков. Я люблю рисовать (особенно люблю портреты), слушать музыку (в какой-то мере я меломан), гулять, знакомиться с новыми людьми (я очень дружелюбна и открыта к новым знакомствам), спать (а кто не любит? Конечно.., еслми мне не сняться кошмары), есть (я настоящая сладкоежка), люблю спорт, путешестовать и всегда открыта к познанию нового!" TextColor="HotPink" HorizontalTextAlignment="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
